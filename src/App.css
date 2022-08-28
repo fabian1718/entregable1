@@ -1,0 +1,56 @@
+
+.quoteBox{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 600px;
+  background: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border: solid 1px gray;
+  padding: 20px;
+}
+
+.color{
+  color: black;
+}
+
+.phrase{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 10px;
+}
+
+i{
+  font-size: 10px;
+}
+
+button{
+  padding: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: solid gray 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next{
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
